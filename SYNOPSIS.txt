@@ -1,0 +1,14 @@
+SYNOPSIS
+The program provides a simple interface for managing seat bookings in a venue with a circular queue-based approach.
+
+Struct Seat:Represents a seat with information about its row, seat number, and a pointer to the next seat .
+createSeatQueue():Initializes an empty seat queue and returns a pointer to the rear of the queue.
+enqueue():Adds a new seat to the queue or books a seat.Uses a circular queue implementation.
+dequeue():Removes a seat from the queue or cancels a booked seat.
+displaySeating():Displays the current seating layout using 'X' for booked seats and 'O' for unbooked seats.
+main():Manages the main menu and user interactions.
+Allows users to:
+Display the seating layout.
+Book a seat (if available).
+Cancel a booked seat.
+Exit the program
